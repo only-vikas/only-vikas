@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-label="Animated neon cyberpunk grid background">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset=".5" stop-color="#09052a"/><stop offset="1" stop-color="#17051f"/></linearGradient>
+<pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#00f5ff" stroke-opacity=".18"/></pattern>
+<filter id="cyan"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="pink"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<radialGradient id="orb"><stop stop-color="#00f5ff" stop-opacity=".4"/><stop offset="1" stop-color="#00f5ff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="520" fill="url(#bg)"/><rect width="1600" height="520" fill="url(#grid)"/>
+<circle cx="180" cy="120" r="230" fill="url(#orb)"><animate attributeName="cx" values="180;420;180" dur="12s" repeatCount="indefinite"/></circle>
+<circle cx="1380" cy="430" r="280" fill="url(#orb)" opacity=".55"><animate attributeName="cx" values="1380;1120;1380" dur="14s" repeatCount="indefinite"/></circle>
+<path d="M-80 410Q380 80 820 360T1680 100" fill="none" stroke="#ff00e5" stroke-width="3" opacity=".8" filter="url(#pink)"><animate attributeName="d" dur="10s" repeatCount="indefinite" values="M-80 410Q380 80 820 360T1680 100;M-80 370Q420 260 860 450T1680 150;M-80 410Q380 80 820 360T1680 100"/></path>
+<path d="M-50 130Q420 420 900 140T1680 320" fill="none" stroke="#00f5ff" stroke-width="2" opacity=".8" filter="url(#cyan)"/>
+<rect x="18" y="18" width="1564" height="484" rx="18" fill="none" stroke="#00f5ff" stroke-opacity=".55"/>
+<rect x="30" y="30" width="1540" height="460" rx="14" fill="none" stroke="#ff00e5" stroke-opacity=".25" stroke-dasharray="8 18"><animate attributeName="stroke-dashoffset" from="0" to="-104" dur="5s" repeatCount="indefinite"/></rect>
+</svg>
