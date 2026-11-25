@@ -1,4 +1,4 @@
-# `> recent_projects --visualize`
+
 
 A visual gallery of recently created projects. Each preview links to its repository; screenshots are taken from the project README or repository assets where available.
 
